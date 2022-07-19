@@ -24,6 +24,11 @@ const files = [
         name: "Version 4",
         path: "https://www.dropbox.com/s/vielzd4ruankar7/Version_4_Windows.zip?dl=0"
     },
+    {
+        type: "file",
+        name: "Version 5 (packaging)",
+        path: "https://www.dropbox.com/s/vielzd4ruankar7/Version_4_Windows.zip?dl=0"
+    },
 ]
 
 const dropElement = document.querySelector(".files")
