@@ -63,7 +63,7 @@ function appendLink(text, path, type) {
     if (type !== undefined && type === "file") {
         const icon = document.createElement("img")
         icon.setAttribute("class", "file_icon")
-        icon.setAttribute("src", "/public/images/folder_icon.png")
+        icon.setAttribute("src", "/files/public/images/folder_icon.png")
         div.appendChild(icon)
     }
 
