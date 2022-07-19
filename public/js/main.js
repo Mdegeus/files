@@ -10,6 +10,9 @@ const files = [
         path: "https://www.dropbox.com/s/40y0lum68epjddy/Version_1_Windows.zip?dl=0"
     },
     {
+        text: "version 1 is the most stable"
+    },
+    {
         type: "file",
         name: "Version 2",
         path: "https://www.dropbox.com/s/er8vywht17de9cf/Version_2_Windows.zip?dl=0"
@@ -26,9 +29,15 @@ const files = [
     },
     {
         type: "file",
-        name: "Version 5 (packaging)",
-        path: "https://www.dropbox.com/s/vielzd4ruankar7/Version_4_Windows.zip?dl=0"
+        name: "Version 5 (replication)",
+        path: "https://www.dropbox.com/s/i71vi693ez8caxu/Version%205%20Replication.zip?dl=0"
     },
+    {
+        type: "file",
+        name: "Version 5 (replication V2)",
+        path: "https://www.dropbox.com/s/wilnvh5r39grcmd/Version%205%20Replication%20v2.zip?dl=0"
+    },
+    
 ]
 
 const dropElement = document.querySelector(".files")
@@ -85,5 +94,7 @@ files.forEach(file => {
         appendTitle(file.title, file.tags)
     } else if (file.type === "file") {
         appendLink(file.name, file.path, "file")
+    } else if (file.type === null) {
+        appendText(file.text)
     }
 })
