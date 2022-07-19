@@ -94,7 +94,7 @@ files.forEach(file => {
         appendTitle(file.title, file.tags)
     } else if (file.type === "file") {
         appendLink(file.name, file.path, "file")
-    } else if (file.type === null) {
+    } else if (file.text !== undefined) {
         appendText(file.text)
     }
 })
