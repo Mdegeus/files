@@ -29,13 +29,8 @@ const files = [
     },
     {
         type: "file",
-        name: "Version 5 (replication)",
-        path: "https://www.dropbox.com/s/i71vi693ez8caxu/Version%205%20Replication.zip?dl=0"
-    },
-    {
-        type: "file",
-        name: "Version 5 (replication V2)",
-        path: "https://www.dropbox.com/s/wilnvh5r39grcmd/Version%205%20Replication%20v2.zip?dl=0"
+        name: "Version 5 (replication V3) (Collectables)",
+        path: "https://www.dropbox.com/s/5brwmmbel11r4l9/Version%205_Replication_3_Windows.zip?dl=0"
     },
     
 ]
